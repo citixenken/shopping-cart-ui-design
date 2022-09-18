@@ -28,3 +28,26 @@ export const sliderItems = [
     bg: "e3fcfd",
   },
 ];
+
+export const categories = [
+  {
+    id: 1,
+    img: "https://images.pexels.com/photos/115655/pexels-photo-115655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    title: "Monitors",
+  },
+  {
+    id: 2,
+    img: "https://images.pexels.com/photos/1661471/pexels-photo-1661471.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "Hoodies",
+  },
+  {
+    id: 3,
+    img: "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "Airpods Pro",
+  },
+  {
+    id: 4,
+    img: "https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "iPhones",
+  },
+];
