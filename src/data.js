@@ -51,3 +51,38 @@ export const categories = [
     title: "iPhones",
   },
 ];
+
+export const popularProducts = [
+  {
+    id: 1,
+    img: "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61L0IlgrfzL._SL1500_.jpg",
+  },
+  {
+    id: 2,
+    img: "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71fs5NKwIzL._SL1500_.jpg",
+  },
+  {
+    id: 3,
+    img: "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41GfTZ2yuBL._AC_SL1500_.jpg",
+  },
+  {
+    id: 4,
+    img: "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61LLziMeLlL._AC_SL1011_.jpg",
+  },
+  {
+    id: 5,
+    img: "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71033YhcnUL._AC_SL1500_.jpg",
+  },
+  {
+    id: 6,
+    img: "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61RHSTpjyPL._AC_SL1500_.jpg",
+  },
+  {
+    id: 7,
+    img: "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61b58XMpy3L._SL1500_.jpg",
+  },
+  {
+    id: 8,
+    img: "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/813vkN9ARgL._AC_SL1500_.jpg",
+  },
+];
