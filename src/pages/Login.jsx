@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { mobile } from "../responsive";
 
 const Container = styled.div`
   width: 100vw;
@@ -20,6 +21,8 @@ const Wrapper = styled.div`
   width: 25%;
   padding: 20px;
   background-color: white;
+  border-radius: 10px;
+  ${mobile({ width: "75%" })}
 `;
 
 const Title = styled.h1`
@@ -40,7 +43,7 @@ const Input = styled.input`
 `;
 
 const Button = styled.button`
-  width: 20%;
+  width: 30%;
   border: none;
   padding: 15px 20px;
   background-color: teal;
@@ -48,6 +51,7 @@ const Button = styled.button`
   color: white;
   cursor: pointer;
   margin-bottom: 10px;
+  ${mobile({ width: "40%" })}
 `;
 
 const Link = styled.a`
